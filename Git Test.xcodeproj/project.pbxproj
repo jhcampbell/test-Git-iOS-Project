@@ -21,6 +21,7 @@
 		ABE017E81958C1800004B9A5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ABE017CA1958C1800004B9A5 /* UIKit.framework */; };
 		ABE017F01958C1800004B9A5 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = ABE017EE1958C1800004B9A5 /* InfoPlist.strings */; };
 		ABE017F21958C1800004B9A5 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE017F11958C1800004B9A5 /* Git_TestTests.m */; };
+		ABE017FD1958CCB20004B9A5 /* LITBTest.m in Sources */ = {isa = PBXBuildFile; fileRef = ABE017FC1958CCB20004B9A5 /* LITBTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		ABE017ED1958C1800004B9A5 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		ABE017EF1958C1800004B9A5 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		ABE017F11958C1800004B9A5 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		ABE017FB1958CCB20004B9A5 /* LITBTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LITBTest.h; sourceTree = "<group>"; };
+		ABE017FC1958CCB20004B9A5 /* LITBTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LITBTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -82,6 +85,8 @@
 		ABE017BA1958C1800004B9A5 = {
 			isa = PBXGroup;
 			children = (
+				ABE017FB1958CCB20004B9A5 /* LITBTest.h */,
+				ABE017FC1958CCB20004B9A5 /* LITBTest.m */,
 				ABE017CC1958C1800004B9A5 /* Git Test */,
 				ABE017EB1958C1800004B9A5 /* Git TestTests */,
 				ABE017C51958C1800004B9A5 /* Frameworks */,
@@ -250,6 +255,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ABE017FD1958CCB20004B9A5 /* LITBTest.m in Sources */,
 				ABE017D31958C1800004B9A5 /* main.m in Sources */,
 				ABE017DD1958C1800004B9A5 /* LITBViewController.m in Sources */,
 				ABE017D71958C1800004B9A5 /* LITBAppDelegate.m in Sources */,
